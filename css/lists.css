@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@500&display=swap);
+body{
+	background-image: url(https://wallpaperaccess.com/full/1285952.jpg);
+	background-size: cover;
+}
+p{
+	font-size: 45pt;
+	text-align: center;
+    font-family: Caprasimo - Google Fonts;
+    text-shadow: c black;
+
+}
+
+ul,ol,dl{
+	font-size: 30px;
+	color: black;
+	margin-left: 60px;
+}
+.fl li: marker{
+	color: lightpink;
+
+}
+
+@counter-style circled-digits {  system: fixed;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;  suffix: " ";
+}ul.il {
+  list-style: circled-digits;}

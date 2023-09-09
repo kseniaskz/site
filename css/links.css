@@ -1,0 +1,105 @@
+body{
+	background-color: lightpink;
+}
+p{
+	font-size: 50px;
+	background-color:white;
+	color: black;
+	text-align: center;
+}
+a{
+	font-size: 25px;
+	color: hotpink;
+
+}
+.f1:visited{
+color: hotpink;
+}
+.f1:hover{
+	
+	text-decoration: underline;
+	text-decoration-style:wavy ;
+}
+.fb{
+	font-size: 24px;
+	color:pink;
+	background-color: white;
+
+   font-family: cursive;
+   border: solid 5px white;
+}
+.fb:hover{
+	color:pink;
+	font-weight: 700;
+   border: solid 5px pink;
+
+
+}
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.myButton {
+	box-shadow:inset -9px 1px 0px 0px #e892ce;
+	background-color:#ff5bb0;
+	border-radius:37px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:27px 20px;
+	text-decoration:none;
+	text-shadow:-4px 2px 4px #c70067;
+}
+.myButton:hover {
+	background-color:#ef027d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+

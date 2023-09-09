@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+	background-color: skyblue;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	background-color: deepskyblue;
+	color: white;
+	font-family: 'Abril Fatface', cursive;
+
+}
+input{
+ background-color: deepskyblue;
+ color: white;
+ border: black;
+ margin: 5px;
+ font-family: 'Abril Fatface', cursive;
+
+	}
+	button{
+background-color: deepskyblue;
+ font-family: 'Abril Fatface', cursive;
+ color: white;
+
+	}
+option{
+		 font-family: 'Abril Fatface', cursive;
+		 background-color: deepskyblue;
+		 color: white;
+
+	}
+	

@@ -1,0 +1,10 @@
+body{
+	background-image:url(https://static.vecteezy.com/system/resources/previews/005/572/340/original/foggy-landscape-forest-in-the-morning-beautiful-sunrise-mist-cover-mountain-background-at-countryside-winter-free-photo.jpg);
+	background-size: cover;
+}
+p{
+	font-size:50pt;
+}
+.p1{
+	background: repeating-linear-gradient(45deg, lightcyan 10% , steelblue 20%);
+}

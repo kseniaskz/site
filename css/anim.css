@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body{
+	background-color: lightgrey;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	background-color: white;
+	font-family: 'Kanit', sans-serif;
+
+	text-shadow: 2px 2px 3px grey;
+}
+marquee{
+     font-size: 40px;
+     text-shadow: 2px 2px 3px grey;
+}	
+div{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	animation-name: example;
+	animation-duration: 5s;
+
+}
+@keyframes example{
+	from{ background-color: black;}
+	to{ background-color: white;}
+}
+div.sd{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	animation-name: example2;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	
+}	
+@keyframes example2{
+	0%{ background-color: black;}
+	25%{ background-color: pink;}
+	50%{ background-color: lightpink;}
+	75%{ background-color:white;}
+	100%{ background-color: black;}
+}
+div.td{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	animation-name: example3;
+	position: relative;
+	animation-duration: 10s;
+	text-align: center;
+	text-shadow: grey;
+	
+}
+@keyframes example3{
+	0% {background-color: black; left:0px; top:0px;}
+	25% {background-color: hotpink; left:300px; top:0px;}	
+	50% {background-color: pink; left:300px; top:300px;}
+	75% {background-color: lightpink; left:0px; top:300px;}
+	100% {background-color: white; left:0px; top:0px;}
+}
